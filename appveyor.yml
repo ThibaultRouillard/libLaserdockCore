@@ -37,5 +37,5 @@ for:
   - sudo apt-get install -y qt514-meta-full libgl-dev
   build_script:
   - mkdir build && cd build
-  - cmake .. -DQTDIR="/opt/qt514"
+  - cmake .. -DQTDIR="/home/thibault/Qt/5.15.2/gcc_64"
   - cmake --build . -- -j4

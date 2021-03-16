@@ -1,0 +1,65 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"example/SpiralFighter/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "ldCore::@c3522ba228dfb17ab3f7"
+		}
+	],
+	"id" : "ldSpiralFighter_autogen::@f2599d4db238013a44d6",
+	"isGeneratorProvided" : true,
+	"name" : "ldSpiralFighter_autogen",
+	"paths" : 
+	{
+		"build" : "example/SpiralFighter",
+		"source" : "example/SpiralFighter"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/example/SpiralFighter/CMakeFiles/ldSpiralFighter_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/example/SpiralFighter/CMakeFiles/ldSpiralFighter_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

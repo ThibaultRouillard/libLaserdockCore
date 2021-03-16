@@ -1,0 +1,2 @@
+/usr/bin/ar Scr liblibqtqmltricks.a CMakeFiles/libqtqmltricks.dir/libqtqmltricks_autogen/mocs_compilation.cpp.o CMakeFiles/libqtqmltricks.dir/src/qqmlgadgetlistmodel.cpp.o CMakeFiles/libqtqmltricks.dir/src/qqmlhelpers.cpp.o CMakeFiles/libqtqmltricks.dir/src/qqmlobjectlistmodel.cpp.o CMakeFiles/libqtqmltricks.dir/src/qqmlsvgiconhelper.cpp.o CMakeFiles/libqtqmltricks.dir/src/qqmlvariantlistmodel.cpp.o CMakeFiles/libqtqmltricks.dir/src/qquickpolygon.cpp.o
+/usr/bin/ranlib -no_warning_for_no_symbols -c liblibqtqmltricks.a

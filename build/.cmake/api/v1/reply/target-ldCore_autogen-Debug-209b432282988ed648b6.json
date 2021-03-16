@@ -1,0 +1,89 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"ldCore/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "aubio::@d3469d05fcaaf3914e1f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "kiss_fft130::@cde59a6c065004f08607"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "libqtqmltricks::@b8af74a9d3d5d5dbc408"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "libaudiodecoder::@81049cbe62d8556b52c5"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "openlase::@793567e14ba570a0fdb3"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "simplecrypt::@168f5485ce4f48a22ce0"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "laserdocklib::@a0a32538aeccc055fc28"
+		}
+	],
+	"id" : "ldCore_autogen::@c3522ba228dfb17ab3f7",
+	"isGeneratorProvided" : true,
+	"name" : "ldCore_autogen",
+	"paths" : 
+	{
+		"build" : "ldCore",
+		"source" : "ldCore"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/ldCore/CMakeFiles/ldCore_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/ldCore/CMakeFiles/ldCore_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

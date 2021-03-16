@@ -1,0 +1,2 @@
+/usr/bin/ar qc libldSpiralFighter.a CMakeFiles/ldSpiralFighter.dir/ldSpiralFighter_autogen/mocs_compilation.cpp.o CMakeFiles/ldSpiralFighter.dir/src/ldSpiralFighterGame.cpp.o CMakeFiles/ldSpiralFighter.dir/src/vis/ldSpiralFighterVisualizer.cpp.o CMakeFiles/ldSpiralFighter.dir/src/vis/impl/ldSpiralFighterEnemy.cpp.o CMakeFiles/ldSpiralFighter.dir/src/vis/impl/ldSpiralFighterMissile.cpp.o CMakeFiles/ldSpiralFighter.dir/src/vis/impl/ldSpiralFighterPlayer.cpp.o
+/usr/bin/ranlib libldSpiralFighter.a

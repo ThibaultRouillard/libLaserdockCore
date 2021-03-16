@@ -1,0 +1,187 @@
+{
+	"BUILD_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/build/example/ldCore_Example_autogen",
+	"CMAKE_BINARY_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/build/example",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/example",
+	"CMAKE_EXECUTABLE" : "/home/thibault/.local/lib/python2.7/site-packages/cmake/data/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/thibault/laser_ws/src/libLaserdockCore/example/CMakeLists.txt",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake",
+		"/home/thibault/laser_ws/src/libLaserdockCore/example/res/qml.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/Visualizations/Ctrl/ldVisDirectionCtrl.h",
+			"MU",
+			"DX5LTMHLVJ/moc_ldVisDirectionCtrl.cpp"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/Visualizations/Visualizers/Animation/ldAnimationVisualizer.h",
+			"MU",
+			"JHMTOZAUN2/moc_ldAnimationVisualizer.cpp"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/Visualizations/Visualizers/Clock/ldAnalogClockVisualizer.h",
+			"MU",
+			"6LCI22KFPX/moc_ldAnalogClockVisualizer.cpp"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/Visualizations/Visualizers/Clock/ldClockComplexObject.h",
+			"MU",
+			"6LCI22KFPX/moc_ldClockComplexObject.cpp"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/Visualizations/Visualizers/Simple/ldCircleVisualizer.h",
+			"MU",
+			"RG4XDYRPQR/moc_ldCircleVisualizer.cpp"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/Visualizations/Visualizers/Simple/ldSquareVisualizer.h",
+			"MU",
+			"RG4XDYRPQR/moc_ldSquareVisualizer.cpp"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/Visualizations/Visualizers/Spectrum/ldSpectrumBandVisualizer.h",
+			"MU",
+			"Y75QBJCN3J/moc_ldSpectrumBandVisualizer.cpp"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/ldCoreExample.h",
+			"MU",
+			"UVLADIE3JM/moc_ldCoreExample.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/build/example/ldCore_Example_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/thibault/laser_ws/src/libLaserdockCore/build/example/ldCore_Example_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GAMEPAD_LIB",
+		"QT_GUI_LIB",
+		"QT_MULTIMEDIA_LIB",
+		"QT_NETWORK_LIB",
+		"QT_QMLMODELS_LIB",
+		"QT_QML_LIB",
+		"QT_QUICK_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/thibault/laser_ws/src/libLaserdockCore/build/example",
+		"/home/thibault/laser_ws/src/libLaserdockCore/example",
+		"/home/thibault/laser_ws/src/libLaserdockCore/example/src",
+		"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty",
+		"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/lib-qt-qml-tricks/include",
+		"/home/thibault/laser_ws/src/libLaserdockCore/ldCore/include",
+		"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/aubio/src",
+		"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/lib-qt-qml-tricks/include",
+		"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/openlase/include",
+		"/home/thibault/laser_ws/src/libLaserdockCore/example/SpiralFighter/src",
+		"/home/thibault/Qt/5.15.2/gcc_64/include",
+		"/home/thibault/Qt/5.15.2/gcc_64/include/QtCore",
+		"/home/thibault/Qt/5.15.2/gcc_64/mkspecs/linux-g++",
+		"/home/thibault/Qt/5.15.2/gcc_64/include/QtGui",
+		"/home/thibault/Qt/5.15.2/gcc_64/include/QtMultimedia",
+		"/home/thibault/Qt/5.15.2/gcc_64/include/QtNetwork",
+		"/home/thibault/Qt/5.15.2/gcc_64/include/QtQml",
+		"/home/thibault/Qt/5.15.2/gcc_64/include/QtGamepad",
+		"/home/thibault/Qt/5.15.2/gcc_64/include/QtQuick",
+		"/home/thibault/Qt/5.15.2/gcc_64/include/QtQmlModels",
+		"/usr/include",
+		"/usr/include/c++/7",
+		"/usr/include/x86_64-linux-gnu/c++/7",
+		"/usr/include/c++/7/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/g++-7",
+		"-dM",
+		"-E",
+		"-c",
+		"/home/thibault/.local/lib/python2.7/site-packages/cmake/data/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/thibault/laser_ws/src/libLaserdockCore/build/example/ldCore_Example_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/thibault/laser_ws/src/libLaserdockCore/build/example/CMakeFiles/ldCore_Example_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/thibault/Qt/5.15.2/gcc_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/thibault/Qt/5.15.2/gcc_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/thibault/laser_ws/src/libLaserdockCore/build/example/CMakeFiles/ldCore_Example_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/Visualizations/Ctrl/ldVisDirectionCtrl.cpp",
+			"MU"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/Visualizations/Visualizers/Animation/ldAnimationVisualizer.cpp",
+			"MU"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/Visualizations/Visualizers/Clock/ldAnalogClockVisualizer.cpp",
+			"MU"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/Visualizations/Visualizers/Clock/ldClockComplexObject.cpp",
+			"MU"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/Visualizations/Visualizers/Simple/ldCircleVisualizer.cpp",
+			"MU"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/Visualizations/Visualizers/Simple/ldSquareVisualizer.cpp",
+			"MU"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/Visualizations/Visualizers/Spectrum/ldSpectrumBandVisualizer.cpp",
+			"MU"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/ldCoreExample.cpp",
+			"MU"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/example/src/main.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

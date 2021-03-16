@@ -1,0 +1,54 @@
+{
+	"BUILD_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/build/3rdparty/libaudiodecoder/libaudiodecoder_autogen",
+	"CMAKE_BINARY_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/build/3rdparty/libaudiodecoder",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/libaudiodecoder",
+	"CMAKE_EXECUTABLE" : "/home/thibault/.local/lib/python2.7/site-packages/cmake/data/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/libaudiodecoder/CMakeLists.txt",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/libaudiodecoder/include/audiodecoder.h",
+			"mU",
+			""
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/libaudiodecoder/include/audiodecoderbase.h",
+			"mU",
+			""
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/build/3rdparty/libaudiodecoder/libaudiodecoder_autogen/include",
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/thibault/laser_ws/src/libLaserdockCore/build/3rdparty/libaudiodecoder/CMakeFiles/libaudiodecoder_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "",
+	"QT_UIC_EXECUTABLE" : "/home/thibault/Qt/5.15.2/gcc_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/thibault/laser_ws/src/libLaserdockCore/build/3rdparty/libaudiodecoder/CMakeFiles/libaudiodecoder_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/libaudiodecoder/src/audiodecoderbase.cpp",
+			"mU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

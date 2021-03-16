@@ -1,0 +1,126 @@
+{
+	"BUILD_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/build/3rdparty/laserdocklib/laserdocklib_autogen",
+	"CMAKE_BINARY_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/build/3rdparty/laserdocklib",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/laserdocklib",
+	"CMAKE_EXECUTABLE" : "/home/thibault/.local/lib/python2.7/site-packages/cmake/data/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/laserdocklib/CMakeLists.txt",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/home/thibault/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/laserdocklib/include/laserdocklib/LaserdockDevice.h",
+			"MU",
+			"6XQJYF7OZA/moc_LaserdockDevice.cpp"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/laserdocklib/include/laserdocklib/LaserdockDeviceManager.h",
+			"MU",
+			"6XQJYF7OZA/moc_LaserdockDeviceManager.cpp"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/laserdocklib/include/laserdocklib/LaserdockSample.h",
+			"MU",
+			"6XQJYF7OZA/moc_LaserdockSample.cpp"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/laserdocklib/include/laserdocklib/Laserdocklib.h",
+			"MU",
+			"6XQJYF7OZA/moc_Laserdocklib.cpp"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/laserdocklib/src/LaserdockDeviceManager_p.h",
+			"MU",
+			"UVLADIE3JM/moc_LaserdockDeviceManager_p.cpp"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/laserdocklib/src/LaserdockDevice_p.h",
+			"MU",
+			"UVLADIE3JM/moc_LaserdockDevice_p.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/build/3rdparty/laserdocklib/laserdocklib_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/thibault/laser_ws/src/libLaserdockCore/build/3rdparty/laserdocklib/laserdocklib_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "laserdocklib_EXPORTS" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/laserdocklib/include",
+		"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/laserdocklib/src",
+		"/home/thibault/Qt/5.15.2/gcc_64/include",
+		"/home/thibault/Qt/5.15.2/gcc_64/include/QtCore",
+		"/home/thibault/Qt/5.15.2/gcc_64/mkspecs/linux-g++",
+		"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/laserdocklib/3rdparty/libusb/include",
+		"/usr/include/c++/7",
+		"/usr/include/x86_64-linux-gnu/c++/7",
+		"/usr/include/c++/7/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/g++-7",
+		"-dM",
+		"-E",
+		"-c",
+		"/home/thibault/.local/lib/python2.7/site-packages/cmake/data/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/thibault/laser_ws/src/libLaserdockCore/build/3rdparty/laserdocklib/laserdocklib_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/thibault/laser_ws/src/libLaserdockCore/build/3rdparty/laserdocklib/CMakeFiles/laserdocklib_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/thibault/Qt/5.15.2/gcc_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/thibault/Qt/5.15.2/gcc_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/thibault/laser_ws/src/libLaserdockCore/build/3rdparty/laserdocklib/CMakeFiles/laserdocklib_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/laserdocklib/src/LaserdockDevice.cpp",
+			"MU"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/laserdocklib/src/LaserdockDeviceManager.cpp",
+			"MU"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/laserdocklib/src/LaserdockDeviceManager_desktop.cpp",
+			"MU"
+		],
+		[
+			"/home/thibault/laser_ws/src/libLaserdockCore/3rdparty/laserdocklib/src/LaserdockDevice_desktop.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

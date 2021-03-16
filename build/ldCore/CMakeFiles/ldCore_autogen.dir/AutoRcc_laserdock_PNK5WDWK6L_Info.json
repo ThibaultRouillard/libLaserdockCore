@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/build/ldCore/ldCore_autogen",
+	"CMAKE_BINARY_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/build/ldCore",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/ldCore",
+	"CMAKE_SOURCE_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore",
+	"INCLUDE_DIR" : "/home/thibault/laser_ws/src/libLaserdockCore/build/ldCore/ldCore_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/thibault/laser_ws/src/libLaserdockCore/ldCore/res/shaders/vshader.glsl",
+		"/home/thibault/laser_ws/src/libLaserdockCore/ldCore/res/shaders/fshader.glsl"
+	],
+	"LOCK_FILE" : "/home/thibault/laser_ws/src/libLaserdockCore/build/ldCore/CMakeFiles/ldCore_autogen.dir/AutoRcc_laserdock_PNK5WDWK6L_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "laserdock" ],
+	"OUTPUT_CHECKSUM" : "PNK5WDWK6L",
+	"OUTPUT_NAME" : "qrc_laserdock.cpp",
+	"RCC_EXECUTABLE" : "/home/thibault/Qt/5.15.2/gcc_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/thibault/laser_ws/src/libLaserdockCore/build/ldCore/CMakeFiles/ldCore_autogen.dir/AutoRcc_laserdock_PNK5WDWK6L_Used.txt",
+	"SOURCE" : "/home/thibault/laser_ws/src/libLaserdockCore/ldCore/res/laserdock.qrc",
+	"VERBOSITY" : 0
+}

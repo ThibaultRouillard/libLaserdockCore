@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"3rdparty/libaudiodecoder/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "libaudiodecoder_autogen::@81049cbe62d8556b52c5",
+	"isGeneratorProvided" : true,
+	"name" : "libaudiodecoder_autogen",
+	"paths" : 
+	{
+		"build" : "3rdparty/libaudiodecoder",
+		"source" : "3rdparty/libaudiodecoder"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/3rdparty/libaudiodecoder/CMakeFiles/libaudiodecoder_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/3rdparty/libaudiodecoder/CMakeFiles/libaudiodecoder_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

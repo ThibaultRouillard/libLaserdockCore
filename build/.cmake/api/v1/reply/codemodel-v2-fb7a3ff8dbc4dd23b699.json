@@ -1,0 +1,444 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						12,
+						13
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "3rdparty",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "3rdparty"
+				},
+				{
+					"build" : "3rdparty/aubio",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3rdparty/aubio",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "3rdparty/kiss_fft130",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3rdparty/kiss_fft130",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "3rdparty/lib-qt-qml-tricks",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3rdparty/lib-qt-qml-tricks",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "3rdparty/libaudiodecoder",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3rdparty/libaudiodecoder",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"build" : "3rdparty/nanosvg-master",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3rdparty/nanosvg-master"
+				},
+				{
+					"build" : "3rdparty/openlase",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3rdparty/openlase",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "3rdparty/openmp",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3rdparty/openmp"
+				},
+				{
+					"build" : "3rdparty/simplecrypt",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3rdparty/simplecrypt",
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"build" : "3rdparty/laserdocklib",
+					"childIndexes" : 
+					[
+						11
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3rdparty/laserdocklib",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "3rdparty/laserdocklib/3rdparty/libusb",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 1,
+					"source" : "3rdparty/laserdocklib/3rdparty/libusb"
+				},
+				{
+					"build" : "ldCore",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ldCore",
+					"targetIndexes" : 
+					[
+						4,
+						7
+					]
+				},
+				{
+					"build" : "example",
+					"childIndexes" : 
+					[
+						14
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "example",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "example/SpiralFighter",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 2,
+					"source" : "example/SpiralFighter",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						12
+					],
+					"name" : "ldCore",
+					"targetIndexes" : 
+					[
+						4,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"name" : "3rdparty",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13,
+						14
+					],
+					"name" : "ldCore_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "aubio::@d3469d05fcaaf3914e1f",
+					"jsonFile" : "target-aubio-Debug-b6cd701c998190859d15.json",
+					"name" : "aubio",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "kiss_fft130::@cde59a6c065004f08607",
+					"jsonFile" : "target-kiss_fft130-Debug-1aaa4b1f270e44a66c37.json",
+					"name" : "kiss_fft130",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "laserdocklib::@a0a32538aeccc055fc28",
+					"jsonFile" : "target-laserdocklib-Debug-e5cccb1d1d40cda04b96.json",
+					"name" : "laserdocklib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "laserdocklib_autogen::@a0a32538aeccc055fc28",
+					"jsonFile" : "target-laserdocklib_autogen-Debug-1e8a10ef839996e76304.json",
+					"name" : "laserdocklib_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ldCore::@c3522ba228dfb17ab3f7",
+					"jsonFile" : "target-ldCore-Debug-d7112428c86e70182943.json",
+					"name" : "ldCore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ldCore_Example::@70983d692f648185febe",
+					"jsonFile" : "target-ldCore_Example-Debug-6737a28286735f704905.json",
+					"name" : "ldCore_Example",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ldCore_Example_autogen::@70983d692f648185febe",
+					"jsonFile" : "target-ldCore_Example_autogen-Debug-50e55b851b036f864e21.json",
+					"name" : "ldCore_Example_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ldCore_autogen::@c3522ba228dfb17ab3f7",
+					"jsonFile" : "target-ldCore_autogen-Debug-209b432282988ed648b6.json",
+					"name" : "ldCore_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ldSpiralFighter::@f2599d4db238013a44d6",
+					"jsonFile" : "target-ldSpiralFighter-Debug-475a3dfc7d6edd70e945.json",
+					"name" : "ldSpiralFighter",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ldSpiralFighter_autogen::@f2599d4db238013a44d6",
+					"jsonFile" : "target-ldSpiralFighter_autogen-Debug-920d7e7af2600753276a.json",
+					"name" : "ldSpiralFighter_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "libaudiodecoder::@81049cbe62d8556b52c5",
+					"jsonFile" : "target-libaudiodecoder-Debug-a9085277881777fdc2d9.json",
+					"name" : "libaudiodecoder",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "libaudiodecoder_autogen::@81049cbe62d8556b52c5",
+					"jsonFile" : "target-libaudiodecoder_autogen-Debug-8c10c09ba3829e7a51c3.json",
+					"name" : "libaudiodecoder_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "libqtqmltricks::@b8af74a9d3d5d5dbc408",
+					"jsonFile" : "target-libqtqmltricks-Debug-4308e1d5bebeb174058b.json",
+					"name" : "libqtqmltricks",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "libqtqmltricks_autogen::@b8af74a9d3d5d5dbc408",
+					"jsonFile" : "target-libqtqmltricks_autogen-Debug-723f24e89c1acc2b268b.json",
+					"name" : "libqtqmltricks_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "openlase::@793567e14ba570a0fdb3",
+					"jsonFile" : "target-openlase-Debug-d0766ee637d353c31d6d.json",
+					"name" : "openlase",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "openlase_autogen::@793567e14ba570a0fdb3",
+					"jsonFile" : "target-openlase_autogen-Debug-b786c7a08f1bfb3d2963.json",
+					"name" : "openlase_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "simplecrypt::@168f5485ce4f48a22ce0",
+					"jsonFile" : "target-simplecrypt-Debug-716f193859c5f9a5cf2f.json",
+					"name" : "simplecrypt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "simplecrypt_autogen::@168f5485ce4f48a22ce0",
+					"jsonFile" : "target-simplecrypt_autogen-Debug-6678c2edf0e1a4964ba0.json",
+					"name" : "simplecrypt_autogen",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thibault/laser_ws/src/libLaserdockCore/build",
+		"source" : "/home/thibault/laser_ws/src/libLaserdockCore"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

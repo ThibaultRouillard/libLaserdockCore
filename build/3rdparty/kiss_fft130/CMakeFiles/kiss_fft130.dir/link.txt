@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkiss_fft130.a CMakeFiles/kiss_fft130.dir/kiss_fft.c.o CMakeFiles/kiss_fft130.dir/tools/kiss_fftr.c.o
+/usr/bin/ranlib libkiss_fft130.a

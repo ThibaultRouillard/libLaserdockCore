@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibaudiodecoder.a CMakeFiles/libaudiodecoder.dir/src/audiodecoderbase.cpp.o
+/usr/bin/ranlib liblibaudiodecoder.a

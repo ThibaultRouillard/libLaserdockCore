@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"3rdparty/lib-qt-qml-tricks/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "libqtqmltricks_autogen::@b8af74a9d3d5d5dbc408",
+	"isGeneratorProvided" : true,
+	"name" : "libqtqmltricks_autogen",
+	"paths" : 
+	{
+		"build" : "3rdparty/lib-qt-qml-tricks",
+		"source" : "3rdparty/lib-qt-qml-tricks"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/3rdparty/lib-qt-qml-tricks/CMakeFiles/libqtqmltricks_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/3rdparty/lib-qt-qml-tricks/CMakeFiles/libqtqmltricks_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

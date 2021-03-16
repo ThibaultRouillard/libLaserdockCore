@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsimplecrypt.a CMakeFiles/simplecrypt.dir/simplecrypt.cpp.o
+/usr/bin/ranlib libsimplecrypt.a

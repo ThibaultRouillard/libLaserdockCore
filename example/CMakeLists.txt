@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.11)
 
 project(ldCore_Example)
 
+find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs genmsg)
+
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
 # setup C++
@@ -36,6 +38,8 @@ target_sources(${PROJECT_NAME} PRIVATE
     src/main.cpp
     src/ldCoreExample.cpp
     src/ldCoreExample.h
+    # src/ldCoreExample2.cpp
+    # src/ldCoreExample2.h
     #src/Visualizations/Visualizers
     src/Visualizations/Ctrl/ldVisDirectionCtrl.cpp
     src/Visualizations/Ctrl/ldVisDirectionCtrl.h

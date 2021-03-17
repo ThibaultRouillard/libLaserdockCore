@@ -57,7 +57,7 @@ include(DetectLinux)
 include(DetectQt)
 include(SetupAndroidToolchain)
 
-project(ldCore)
+project(liblaserdockcore)
 
 # we need find Qt here because of weird bugs
 find_package(Qt5 COMPONENTS Core Gui Network Multimedia OpenGL Quick Widgets REQUIRED)

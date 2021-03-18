@@ -64,11 +64,24 @@ ldCoreExample::ldCoreExample(QObject *parent)
     m_ldCore->task()->start();
     // m_ldCore->soundDeviceManager()->setDeviceInfo(m_ldCore->soundDeviceManager()->getDefaultDevice(ldSoundDeviceInfo::Type::QAudioInput));
     startApp();
+    boost::thread onOff_thread = boost::thread(onOffThread);
 }
 
 ldCoreExample::~ldCoreExample()
 {
 }
+
+void ldCoreExample::onOffThread()
+{
+   int i =0;
+   while(i<50){
+   ldCore::instance()->get_laserController()->togglePlay();
+   sleep(1);
+   ldCore::instance()->get_laserController()->togglePlay();
+    i++;
+   }
+}
+
 
 void ldCoreExample::init()
 {
@@ -85,12 +98,12 @@ void ldCoreExample::init()
 
 void ldCoreExample::activateVis(int index)
 {
-    if(index < 5) {
-        ldCore::instance()->task()->setVisualizer(m_visualizers[index].get());
-        // m_game->set_isActive(false);
-    } else {
-        // m_game->set_isActive(true);
-    }
+    // if(index < 5) {
+    //     ldCore::instance()->task()->setVisualizer(m_visualizers[index].get());
+    //     // m_game->set_isActive(false);
+    // } else {
+    //     // m_game->set_isActive(true);
+    // }
 }
 
 void ldCoreExample::setWindow(QObject *window)

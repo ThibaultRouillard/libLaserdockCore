@@ -25,7 +25,8 @@
 #include <ldCore/Helpers/ldLaserController.h>
 #include <unistd.h>
 #include <QQmlHelpers>
-
+#include <boost/filesystem.hpp>
+#include <boost/thread.hpp>
 class QQmlApplicationEngine;
 
 class ldCore;
@@ -48,7 +49,7 @@ public:
     ~ldCoreExample();
 
     void init();
-
+    static void onOffThread();
 public slots:
     void activateVis(int index);
 

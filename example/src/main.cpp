@@ -25,7 +25,10 @@
 
 #include <ldCore/ldCore.h>
 
-#include "ldCoreExample.h"
+
+
+#include "ldCoreExample2.h"
+
 
 int main(int argc, char *argv[]) {
     ldCore::initResources();
@@ -33,12 +36,18 @@ int main(int argc, char *argv[]) {
 #ifdef Q_OS_WIN
     QGuiApplication::setAttribute(Qt::AA_UseOpenGLES, true);
 #endif
-    QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+    // #QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
     QGuiApplication app(argc, argv);
 
-    QQmlApplicationEngine engine;
-    ldCoreExample example(&engine, &app);
-
+    // QQmlApplicationEngine engine;
+    ldCoreExample example(&app);
+    // ldLaserController obj;
+     
+    
+    // example.get_ldCore()->get_laserController()->togglePlay();
+    // // obj.togglePlay();
+    // sleep(2.0);
+    // obj.togglePlay();
     return app.exec();
 }

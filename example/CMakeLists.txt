@@ -17,6 +17,11 @@ set(CMAKE_AUTORCC ON)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
+
+set(Boost_USE_STATIC_LIBS OFF) 
+set(Boost_USE_MULTITHREADED ON)  
+set(Boost_USE_STATIC_RUNTIME OFF) 
+find_package(Boost 1.45.0 COMPONENTS filesystem regex thread) 
 # ---------------------------- SOURCES  ----------------------
 
 # Executable
@@ -36,10 +41,10 @@ target_include_directories(${PROJECT_NAME} PRIVATE src)
 
 target_sources(${PROJECT_NAME} PRIVATE
     src/main.cpp
-    src/ldCoreExample.cpp
-    src/ldCoreExample.h
-    # src/ldCoreExample2.cpp
-    # src/ldCoreExample2.h
+    # src/ldCoreExample.cpp
+    # src/ldCoreExample.h
+    src/ldCoreExample2.cpp
+    src/ldCoreExample2.h
     #src/Visualizations/Visualizers
     src/Visualizations/Ctrl/ldVisDirectionCtrl.cpp
     src/Visualizations/Ctrl/ldVisDirectionCtrl.h
@@ -80,7 +85,7 @@ endif()
 target_include_directories(${PROJECT_NAME} PRIVATE ../3rdparty)
 target_include_directories(${PROJECT_NAME} PRIVATE ../3rdparty/lib-qt-qml-tricks/include)
 
-target_link_libraries(${PROJECT_NAME} PRIVATE ldCore)
+target_link_libraries(${PROJECT_NAME} PRIVATE ldCore Boost::filesystem Boost::regex Boost::thread)
 
 
 add_subdirectory(SpiralFighter)

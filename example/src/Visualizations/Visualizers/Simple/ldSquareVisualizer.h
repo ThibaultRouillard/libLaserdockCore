@@ -30,6 +30,8 @@
 #define ldCore__ldSquareVisualizer__
 
 #include "ldCore/Visualizations/ldVisualizer.h"
+#include "ldCore/Helpers/Draw/ldBezierCurveDrawer.h"
+#include <vector>
 
 class ldSquareVisualizer : public ldVisualizer
 {
@@ -37,13 +39,14 @@ class ldSquareVisualizer : public ldVisualizer
 public:
     explicit ldSquareVisualizer();
     virtual ~ldSquareVisualizer();
-
+    void setPath( std::vector<std::vector<float>> path);
     // ldVisualizer
     virtual QString visualizerName() const override { return "Square"; }
 
 protected:
     // ldVisualizer
-    virtual void draw() override;
+    virtual void draw() ;
+    std::vector<std::vector<float>> _path;
 };
 
 #endif /*__ldCore__ldSquareVisualizer__*/

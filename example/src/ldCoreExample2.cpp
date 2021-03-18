@@ -76,7 +76,7 @@ void ldCoreExample::onOffThread()
    int i =0;
    while(i<50){
    ldCore::instance()->get_laserController()->togglePlay();
-   sleep(1);
+   sleep(5);
    ldCore::instance()->get_laserController()->togglePlay();
     i++;
    }
@@ -92,7 +92,7 @@ void ldCoreExample::init()
     //     QTimer::singleShot(0, qApp, &QGuiApplication::quit);
     //     return;
     // }
-
+   
     ldCore::instance()->task()->setVisualizer(m_visualizers[0].get());
 }
 
@@ -113,14 +113,33 @@ void ldCoreExample::setWindow(QObject *window)
 
 void ldCoreExample::startApp()
 {
-    m_visualizers.push_back(std::unique_ptr<ldVisualizer>(new ldCircleVisualizer));
-    // m_visualizers.push_back(std::unique_ptr<ldVisualizer>(new ldSquareVisualizer));
+    //m_visualizers.push_back(std::unique_ptr<ldVisualizer>(new ldCircleVisualizer));
+    auto square_obj = new ldSquareVisualizer;
+
+    std::vector<float> points1{.5,1.};
+     std::vector<float> points{1.,-1.};
+     std::vector<float> points2{.1,-1.};
+     std::vector<float> points3{.1,-.5};
+     std::vector<float> points4{.2,-.65};
+     std::vector<float> points5{.6,.7};
+     std::vector<float> points6{.4,.7};
+    std::vector<std::vector<float>> path;
+    path.push_back(points);
+    path.push_back(points1);
+    path.push_back(points2);
+    path.push_back(points3);
+    path.push_back(points4);
+    path.push_back(points5);
+    path.push_back(points6);
+    qDebug()<<path[0][0];
+    square_obj->setPath(path);
+    m_visualizers.push_back(std::unique_ptr<ldVisualizer>(square_obj));
     // m_visualizers.push_back(std::unique_ptr<ldVisualizer>(new ldSpectrumBandVisualizer));
-    // m_visualizers.push_back(std::unique_ptr<ldVisualizer>(new ldAnimationVisualizer(ldCore::instance()->resourceDir() + "/ldva2/Go-Go Girl.ldva2")));
+    //m_visualizers.push_back(std::unique_ptr<ldVisualizer>(new ldAnimationVisualizer(ldCore::instance()->resourceDir() + "/svg/test.svg")));
     // m_visualizers.push_back(std::unique_ptr<ldVisualizer>(new ldAnalogClockVisualizer));
 
     // m_game = new ldSpiralFighterGame(this);
-    
+       
     QTimer::singleShot(0, this, &ldCoreExample::init);
  
 }

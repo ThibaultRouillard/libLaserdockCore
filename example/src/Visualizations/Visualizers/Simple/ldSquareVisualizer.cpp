@@ -42,13 +42,18 @@ void ldSquareVisualizer::draw()
     m_renderer->begin(OL_LINESTRIP);
 
     const float MAX_VAL = 0.99f;
-
-    m_renderer->vertex(-1. * MAX_VAL, -1. * MAX_VAL, C_WHITE, 3);
-    m_renderer->vertex(-1. * MAX_VAL, 1. * MAX_VAL, C_WHITE, 6);
-    m_renderer->vertex(1. * MAX_VAL, 1. * MAX_VAL, C_WHITE, 6);
-    m_renderer->vertex(1. * MAX_VAL, -1. * MAX_VAL, C_WHITE, 6);
-    m_renderer->vertex(-1. * MAX_VAL, -1. * MAX_VAL, C_WHITE, 3);
-
-    m_renderer->end();
+    //qDebug()<<(_path.size());
+    //qDebug()<<_path[0][0];
+    for (int i = 0;i<_path.size();i++){
+        m_renderer->vertex(float(_path[i][0]) * MAX_VAL, float(_path[i][1])* MAX_VAL, C_GREEN, 3);
+        m_renderer->vertex(float(_path[i][0]) * MAX_VAL, float(_path[i][1])* MAX_VAL, C_GREEN, 6);
+        qDebug()<<i;
+    } 
+    //  m_renderer->vertex(-1. * MAX_VAL, 1* MAX_VAL, C_WHITE, 3);
+    //  m_renderer->vertex(1. * MAX_VAL, -1* MAX_VAL, C_WHITE, 6);
+    //qDebug()<<"oy";
+      m_renderer->end();
 }
 
+void ldSquareVisualizer::setPath( std::vector<std::vector<float>> path)
+{_path = path;}

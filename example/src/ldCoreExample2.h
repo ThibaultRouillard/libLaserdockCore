@@ -23,6 +23,7 @@
 
 #include <memory>
 #include <ldCore/Helpers/ldLaserController.h>
+#include <ldCore/Helpers/SVG/ldSvgReader.h>
 #include <unistd.h>
 #include <QQmlHelpers>
 #include <boost/filesystem.hpp>

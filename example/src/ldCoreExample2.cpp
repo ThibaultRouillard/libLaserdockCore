@@ -24,7 +24,6 @@
 #include <QtCore/QtDebug>
 #include <QtCore/QTimer>
 #include <QtQml/QtQml>
-
 #include <ldCore/ldCore.h>
 #include <ldCore/Sound/ldSoundDeviceManager.h>
 #include <ldCore/Visualizations/ldVisualizationTask.h>
